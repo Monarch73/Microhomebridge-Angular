@@ -7,7 +7,10 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./window-modal.component.scss']
 })
 export class WindowModalComponent {
-  closeResult: string;
+  public closeResult: string;
+  public oldName: string;
+  public nummer: number;
+
   constructor(private modalService: NgbModal) { }
 
   open(content) {
