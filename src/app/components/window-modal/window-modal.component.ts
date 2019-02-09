@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
+
 
 @Component({
   selector: 'app-window-modal',
@@ -30,5 +31,4 @@ export class WindowModalComponent {
       return  `with: ${reason}`;
     }
   }
-
 }
